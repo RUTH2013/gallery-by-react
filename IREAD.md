@@ -17,3 +17,15 @@ yo react-webpack gallery-by-react(项目名)
 npm install postcss-loader autoprefixer --save-dev
 npm install json-loader --save-dev
 ```
+
+##编辑打包
+```
+npm start
+npm run dist
+```
+##发布
+```
+git add dist
+git commit -m 'add dist'
+git subtree push --prefix=dist origin gh-pages
+```
