@@ -29,3 +29,4 @@ git add dist
 git commit -m 'add dist'
 git subtree push --prefix=dist origin gh-pages
 ```
+项目地址：https://ruth2013.github.io/gallery-by-react/
